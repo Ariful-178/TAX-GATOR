@@ -1,0 +1,213 @@
+/*======================
+MEDIAM LAYOUT : 1280px.
+=======================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1600px) {    
+    .left-group-logo {
+        padding: 0;
+    }
+    
+    .left-group-logo img {
+        width: 100px;
+        left: 0;
+    }
+    
+    .left-group-logo h1 {
+        font-size: 25px;
+        padding: 11px 0;
+        padding-left: 95px;
+    }
+    
+    .right-logo-inner img {
+        max-width: 85px;
+    }
+    
+    .right-group-logo > img {
+        max-width: 115px;
+    }
+    
+    .right-logo-inner h2 {
+        margin-top: 50px;
+        font-size: 25px;
+        margin-bottom: 4px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+
+/*=====================
+TABLET LAYOUT : 768px.
+=====================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .left-group-logo {
+        padding: 0;
+    }
+    
+    .left-group-logo img {
+        width: 100px;
+        left: 0;
+    }
+    
+    .left-group-logo h1 {
+        font-size: 19px;
+        padding: 11px 0;
+        padding-left: 95px;
+    }
+    
+    .right-logo-inner img {
+        max-width: 85px;
+    }
+    
+    .right-group-logo > img {
+        max-width: 107px;
+    }
+    
+    .right-logo-inner h2 {
+        margin-top: 50px;
+        font-size: 17px;
+        margin-bottom: 4px;
+    }
+    
+    .banner-text h3 {
+        font-size: 22px;
+    }
+    
+    .banner-text h1 {
+        font-size: 28px;
+    }
+    
+    .banner-dropdown {
+        font-size: 20px;
+    }
+}
+
+/*=====================
+SMALL MOBILE LAYOUT : 320px.
+=====================*/
+
+@media only screen and (max-width: 767px) {
+    .left-group-logo h1 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+    
+    .left-group-logo img {
+        position: inherit;
+        max-width: 60px;
+        display: block;
+        margin: 0 auto;
+        left: 0;
+        margin-bottom: 20px;
+    }
+    
+    .left-group-logo {
+        padding: 0 10px;
+    }
+    
+    .consult-group {}
+    
+    .consult-group {
+        margin: 10px 0;
+    }
+    
+    .right-group-logo > img {
+        max-width: 150px;
+    }
+    
+    .right-logo-inner img {
+        max-width: 125px;
+    }
+    
+    .right-logo-inner h2 {
+        margin-top: 68px;
+        font-size: 23px;
+    }
+    
+    .section-title h2 {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    
+    .section-title {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    .banner-inner {
+        margin: 0;
+    }
+    
+    .banner-text h3 {
+        font-size: 14px;
+    }
+    
+    .banner-text {
+        padding: 5px;
+        margin-top: 10px;
+    }
+    
+    .banner-text h1 {
+        font-size: 17px;
+    }
+    
+    .banner-dropdown {
+        max-width: 300px;
+        font-size: 20px;
+    }
+    
+    .can-help-inner h4 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .can-help-inner h4.red {
+        margin: 20px 0;
+    }
+    
+    .resolve h2 {
+        font-size: 24px;
+    }
+    
+    .resolve p {
+        font-size: 16px;
+    }
+    
+    .resolve ul li {
+        font-size: 15px;
+    }
+    
+    .why-tax-wrap .single-why {
+        margin-bottom: 50px;
+    }
+    
+    .embed-video {
+        margin-top: 0;
+    }
+    
+    h3 {}
+    
+    .why-inner h3 {
+        font-size: 20px;
+    }
+    
+    .why-inner p {
+        font-size: 16px;
+    }
+
+    .banner-inner.container {
+        width: 100%;
+        max-width: inherit;
+    }
+}
+
+
+/*========================
+LARGE MOBILE LAYOUT: 480px.
+=========================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}

@@ -1,0 +1,458 @@
+
+::selection {
+  background: #f7f7f7;
+  color: #00b22d;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #f7f7f7;
+  /* Firefox */
+  color: #00b22d;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: #f7f7f7;
+  /* Safari */
+  color: #00b22d;
+  text-shadow: none;
+}
+
+body {
+    font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 14px;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+input:focus, textarea:focus, button:focus, a:focus {
+    outline: none;
+}
+
+button[type=submit], input[type=submit] {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+	margin: 0 0 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+input, textarea {
+    padding: 10px 15px;
+    margin-bottom: 1em;
+}
+
+.content-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.content-table .content-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/**
+* ===================================
+* = 02. Banner CSS
+* ===================================
+*/
+.banner-wrap {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.left-group-logo {
+    background-color: #1cbbb4;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+.consult-group{
+    
+    margin-top: 47px;
+    
+}
+.left-group-logo h1 {
+    color: #f42f08;
+    padding-left: 255px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.left-group-logo img {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    max-width: 200px;
+}
+
+.right-group-logo {
+    background-color: #fff799;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    padding-right: 0;
+}
+
+.right-group-logo > img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.right-logo-inner h2 {
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.banner-inner {
+    margin-top: 25vh;
+}
+
+.banner-text {
+    background-color: #7cf1f2;
+    padding: 15px;
+}
+
+.banner-text h3 {
+    font-size: 28px;
+}
+
+.banner-text h1 {
+    margin-bottom: 0;
+    color: #f42f08;
+    font-size: 42px;
+}
+
+.banner-dropdown {
+    background-color: #fff;
+    font-size: 30px;
+    padding: 15px;
+    width: 550px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+/**
+* ===================================
+* = 03. Can Help CSS
+* ===================================
+*/
+.section-title {
+    position: relative;
+    background-color: #ee5f00;
+}
+
+.with-border:before, .with-border:after, .section-title h2:before, .section-title h2:after {
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 0;
+    height: 0;
+    content: '';
+    border-right: 30px solid #ee5f00;
+    border-bottom: 40px solid transparent;
+}
+
+.section-title h2 {
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.with-border:after {
+    top: auto;
+    bottom: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 0;
+}
+
+.section-title h2:before {
+    left: 100%;
+    border-left: 30px solid #ee5f00;
+    border-bottom: 40px solid transparent;
+    border-right: 0;
+}
+
+.section-title h2:after {
+    top: auto;
+    bottom: 0;
+    left: 100%;
+    border-bottom: 0;
+    border-top: 40px solid transparent;
+    border-right: 0;
+    border-left: 30px solid #ee5f00;
+}
+
+.can-help-wrap {
+    padding-top: 50px;
+    background-image: url(assets/img/dragon-bg.png);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.can-help-inner h4 {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 2.5;
+}
+
+.can-help-inner h4.red {
+    color: #f76605;
+    text-transform: uppercase;
+    margin: 30px 0;
+    line-height: 1.7;
+}
+
+.resolve h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.resolve p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.resolve {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.resolve ul li {
+    display: block;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 35px;
+    color: #000;
+}
+
+.resolve ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/img/check.png');
+    background-size: contain;
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+.can-help-inner h4 img {
+    position: relative;
+    padding-left: 10px;
+    max-width: 125px;
+}
+
+
+
+
+
+
+
+
+/**
+* ===================================
+* = 04. Why Tax CSS
+* ===================================
+*/
+.why-inner h3 {
+    color: #e81622;
+    text-align: center;
+}
+
+.why-inner p {
+    font-size: 18px;
+    color: #0604ff;
+}
+
+.why-inner {
+    margin-top: 50px;
+}
+
+.why-tax-wrap {
+    padding: 50px 0;
+    background-color: #e2e2e2;
+}
+
+.single-why h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 24px;
+    color: #e81622;
+    text-transform: uppercase;
+}
+
+.single-why h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0604ff;
+}
+
+.embed-video {
+    width:100%;
+    height:220px;
+    float: none;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+* ===================================
+* = 04. Tax Gator CSS
+* ===================================
+*/
+.gator-wrap {
+    background-image: url(assets/img/dragon-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.tax-gator-wrap {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.tax-gator-inner {
+    font-weight: 700;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+* ===================================
+* = 06. Process CSS
+* ===================================
+*/
+.our-process-wrap {
+    padding: 50px 0;
+    background-color: rgba(226, 226, 226, 0.7);
+    border-bottom: 1px solid #000;
+}
+
+.our-process-wrap .single-why h4 {
+    color: #000;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.our-process-wrap .single-why p {
+    text-align: left;
+    font-size: 12px;
+}
+
+.our-process-wrap .single-why {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/**
+* ===================================
+* = 07. Satisfied Clients CSS
+* ===================================
+*/
+
+.single-client {
+    margin-top: 50px;
+}
+
+.safisfied-client-wrap {
+    padding-bottom: 50px;
+    background-color: #fff;
+    background-image: url(assets/img/dragon-bg-3.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.single-client {
+    font-size: 12px;
+}
+
+.single-client h4 {
+    font-size: 12px;
+    color: #ee5f00;
+    margin-bottom: 5px;
+}
